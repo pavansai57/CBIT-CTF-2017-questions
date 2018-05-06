@@ -1,0 +1,142 @@
+Binary:
+
+1.) Find the flag by giving correct integer password
+    find the file vuln123 in source folder
+
+2.) Find the flag by giving correct number
+    find the file pass123 in source folder
+
+MISC:
+
+1.)	Bank of Timbuktu was a medium-sized, regional financial institution in Timbuktu. The bank has
+	deployed a new Internet-accessible Web application recently, using which customers could
+	access their account balances, transfer money between accounts, pay bills and conduct online
+	financial business using a Web browser.
+	John Stevens was in charge of information security at Bank of Timbuktu. After one month in
+	production, several customers complained about the Internet enabled bansheets application.
+	Strangely, the account balances of many banks customers has been changed! However, money
+	hadnít been removed from the bank. Instead, money was transferred between accounts. Given
+	this attack profile, John Stevens reviewed the Web applicationís logs and found the following
+	entries:
+	Attempted login of unknown user: John
+	Attempted login of unknown user: sysaR
+	Attempted login of unknown user: sencat
+	Attempted login of unknown user: pete ëí;
+	Attempted login of unknown user: ë or 1=1--
+	Attempted login of unknown user: ë; drop table logins--
+	Login of user jason, sessionID= 0x75627578626F6F6B
+	Login of user daniel, sessionID= 0x98627579539E13BE
+	Login of user rebecca, sessionID= 0x90627579944CCB811
+	Login of user mike, sessionID= 0x9062757935FB5C64
+	Transfer Funds user jason
+	Pay Bill user mike
+	Logout of user mike
+
+	What kind of attack did the Hacker attempt to carry out at the bank? (Choose the best answer)
+	A. The Hacker attempted SQL Injection technique to gain access to a valid bank login ID.
+	B. The Hacker attempted Session hijacsheets, in which the Hacker opened an account with the
+	bank, then logged in to receive a session ID, guessed the next ID and took over Jasonís
+	session.
+	C. The Hacker attempted a brute force attack to guess login ID and password using password
+	cracsheets tools.
+	D. The Hacker used a random generator module to pass results to the Web server and exploited
+	Web application CGI vulnerability.
+
+	No. of attempts:1
+	Flag is the LETTER representing the correct choice.
+	ENter the flag in UPPER CASE.
+	
+	answer: A
+
+2.)	The follows is an email header. What address is that of the true originator of the message?
+	Return-Path: bgates@microsoft.com
+	Received: from smtp.com (fw.emumail.com [215.52.220.122].
+	by raq-221-181.ev1.net (8.10.2/8.10.2. with ESMTP id h78NIn404807
+	for mikeg@thesolutionfirm.com; Sat, 9 Aug 2003 18:18:50 -0500
+	Received: (qmail 12685 invoked from network.; 8 Aug 2003 23:25:25 -0000
+	Received: from ([19.25.19.10].
+	by smtp.com with SMTP
+	Received: from unknown (HELO CHRISLAPTOP. (168.150.84.123.
+	by localhost with SMTP; 8 Aug 2003 23:25:01 -0000
+	From: "Bill Gates" bgates@microsoft.com
+	To: "mikeg" mikeg@thesolutionfirm.com
+	Subject: We need your help!
+	Date: Fri, 8 Aug 2003 19:12:28 -0400
+	Message-ID: 51.32.123.21@CHRISLAPTOP
+	MIME-Version: 1.0
+	Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0052_01C35DE1.03202950"
+	X-Priority: 3 (Normal.
+	X-MSMail-Priority: Normal
+	X-Mailer: Microsoft Outlook, Build 10.0.2627
+	X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1165
+	Importance: Normal
+
+	No. of attempts:1
+	The flag is the correct ip address.
+
+	answer: 168.150.84.123
+	 	 
+3.)	The answer to that question is the flag. Please enter the flag in the most exact
+	way.
+	
+	find the file loggreport4 in source folder
+	answer: Microsoft-IIS/4.0
+
+Cryptography:
+
+1.)    TVBBSkFMSFZFU1NWTFlYTlZLTA==
+
+       i am a vinegar
+
+       Note: enter flag in uppercase 
+
+       answer is found by reverse of vigener cipher.
+
+
+2.)
+
+	RXZpbCBDb3JwLCB3ZSBoYXZlIGRlbGl2ZXJlZCBvbiBvdXIgcHJvbWlzZSBhcyBleHBlY3RlZC4g
+	VGhlIHBlb3BsZSBvZiB0aGUgd29ybGQgd2hvIGhhdmUgYmVlbiBlbnNsYXZlZCBieSB5b3UgaGF2
+	ZSBiZWVuIGZyZWVkLiBZb3VyIGZpbmFuY2lhbCBkYXRhIGhhcyBiZWVuIGRlc3Ryb3llZC4gQW55
+	IGF0dGVtcHRzIHRvIHNhbHZhZ2UgaXQgd2lsbCBiZSB1dHRlcmx5IGZ1dGlsZS4gRmFjZSBpdDog
+	eW91IGhhdmUgYmVlbiBvd25lZC4gV2UgYXQgZnNvY2lldHkgd2lsbCBzbWlsZSBhcyB3ZSB3YXRj
+	aCB5b3UgYW5kIHlvdXIgZGFyayBzb3VscyBkaWUuIFRoYXQgbWVhbnMgYW55IG1vbmV5IHlvdSBv
+	d2UgdGhlc2UgcGlncyBoYXMgYmVlbiBmb3JnaXZlbiBieSB1cywgeW91ciBmcmllbmRzIGF0IGZz
+	b2NpZXR5LiBUaGUgbWFya2V0J3Mgb3BlbmluZyBiZWxsIHRoaXMgbW9ybmluZyB3aWxsIGJlIHRo
+	ZSBmaW5hbCBkZWF0aCBrbmVsbCBvZiBFdmlsIENvcnAuIFdlIGhvcGUgYXMgYSBuZXcgc29jaWV0
+	eSByaXNlcyBmcm9tIHRoZSBhc2hlcyB0aGF0IHlvdSB3aWxsIGZvcmdlIGEgYmV0dGVyIHdvcmxk
+	LiBBIHdvcmxkIHRoYXQgdmFsdWVzIHRoZSBmcmVlIHBlb3BsZSwgYSB3b3JsZCB3aGVyZSBncmVl
+	ZCBpcyBub3QgZW5jb3VyYWdlZCwgYSB3b3JsZCB0aGF0IGJlbG9uZ3MgdG8gdXMgYWdhaW4sIGEg
+	d29ybGQgY2hhbmdlZCBmb3JldmVyLiBBbmQgd2hpbGUgeW91IGRvIHRoYXQsIHJlbWVtYmVyIHRv
+	IHJlcGVhdCB0aGVzZSB3b3JkczogImZsYWd7V2UgYXJlIGZzb2NpZXR5LCB3ZSBhcmUgZmluYWxs\neSBmcmVlLCB3ZSBhcmUgZmluYWxseSBhd2FrZSF9Ig==
+
+	you should be strong with "basec"s.
+	No. of attempts:2
+	The flag is the one in the brackets.
+
+	answer if found by reversing of base64 cipher.
+
+3.)     Find the flag
+
+	https://gameofpwnz.com/wp-content/uploads/2017/09/notinfront.png
+	
+	answer if found by saving the page as .docs and fololowin the link behind the image
+
+WEB:
+
+1.) Find the flag
+
+    https://pavansai57.000webhostapp.com/topsecret.html
+
+    answer is found by correcting the javascript in the source page.
+
+2.) Find the flag
+
+    https://pavansai57.000webhostapp.com/index1.php?var1=1
+	
+    answer is found by giving ' or '1'='1 to var1
+
+    
+
+
